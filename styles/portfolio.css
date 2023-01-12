@@ -80,7 +80,7 @@ nav ul {
 }
 /* about section style */
 
-main {
+.about {
     max-width: 1140px;
     margin:0% auto;
     background: #FFF8F3;
@@ -89,9 +89,6 @@ main {
     margin: 130px 230px;
 }
 
-.about {
-
-}
 
 .section-title {
      text-align: center;
@@ -129,4 +126,147 @@ main {
     font-weight: 400;
     font-size: 20px;
     color: black;
+}
+
+.section-description-2 {
+    text-align: center;
+    margin: 30px 345px;
+}
+
+.skills-container {
+    display: flex;
+    margin: 0px 230px;
+    gap: 24px;
+}
+
+.skills {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-top: 130px;
+}
+
+.sections-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 71px;
+}
+
+.resume-content {
+    margin-left: 230px;
+    margin-right: 277px;
+}
+
+.resume-description {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-description2 {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resumes-title {
+    margin-top: 30px;
+}
+
+.resumes-title2 {
+    margin-top: 30px;
+}
+
+.resumes-word {
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resumes-word2 {
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-button {
+    text-align: center;
+}
+
+.btn-primary2 {
+    margin-top: 50px;
+    text-align: center;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0ch;
+    padding: 18px 35px;
+    margin-bottom: 113px;
+}
+
+.contact {
+    display: flex;
+    gap: 117px;
+    background-color: #FFF8F3;
+}
+
+.contact1 {
+    margin-left: 230px;
+}
+
+.contact2 {
+    margin-right: 230px;
+}
+
+.section-titles {
+    padding-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.hello {
+    width: 461px;
+    height: 50px;
+    margin-bottom: 24px;
+    border: 0ch;
+    padding: 18px 349px 18px 30px;
+}
+
+.hello2 {
+    width: 461px;
+    height: 130px;
+    margin-bottom: 24px;
+    padding: 18px 365px 134px 30px;
+}
+
+.text {
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
 }
