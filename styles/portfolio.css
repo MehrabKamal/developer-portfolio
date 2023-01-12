@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+
+/* header and navigation styles */
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0ch;
+    padding: 18px 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+
+}
+/* about section style */
+
+main {
+    max-width: 1140px;
+    margin:0% auto;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 157px;
+    margin: 130px 230px;
+}
+
+.about {
+
+}
+
+.section-title {
+     text-align: center;
+     font-weight: 700;
+     font-size: 35px;
+     line-height: 48px;
+     margin-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;   
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
